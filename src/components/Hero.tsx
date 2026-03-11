@@ -17,7 +17,7 @@ export function Hero() {
           Platform for STEM student challenges.
         </h1>
         <p className="hero-lead">
-          The purpose of GEARS is to provide a plaform for STEM students of the University of Groningen and Hanze University of Applied Sciences
+          GEARS is the association built to provide a platform for STEM students of the University of Groningen and Hanze University of Applied Sciences
           to compete in student challenges.
         </p>
 
