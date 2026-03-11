@@ -1,5 +1,5 @@
 import logoSmall from '../assets/gears_branding/gears_logo_small.jpeg'
-import { MEMBERSHIP_FORM_URL } from '../config'
+// import { MEMBERSHIP_FORM_URL } from '../config'
 
 export function SiteHeader() {
   return (

@@ -1,4 +1,4 @@
-import { EVENT_INTEREST_FORM_URL, MEMBERSHIP_FORM_URL } from '../config'
+// import { EVENT_INTEREST_FORM_URL, MEMBERSHIP_FORM_URL } from '../config'
 import logoFull from '../assets/gears_branding/gears_logo.png'
 
 export function Hero() {
