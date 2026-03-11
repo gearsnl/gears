@@ -1,37 +1,34 @@
 import { EVENT_INTEREST_FORM_URL, MEMBERSHIP_FORM_URL } from '../config'
+import logoFull from '../assets/gears_branding/gears_logo.png'
 
 export function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="hero-tagline">University Robotics &amp; Engineering</p>
+        <div className="hero-logo-wrapper">
+          <img
+            src={logoFull}
+            alt="GEARS Robotics &amp; Engineering Association"
+            className="hero-logo"
+          />
+        </div>
+        <p className="hero-tagline">Gronigen Engineering and Robotics Study Association</p>
         <h1>
-          GEARS Robotics &amp;
-          <br />
-          Engineering Association
+          Platform for STEM student challenges.
         </h1>
         <p className="hero-lead">
-          GEARS brings together students who love robotics, embedded systems and
-          engineering. Join us for hands-on projects, competitions and career
-          events with industry partners.
+          The purpose of GEARS is to provide a plaform for STEM students of the University of Groningen and Hanze University of Applied Sciences
+          to compete in industry challenges.
         </p>
 
         <div className="hero-actions">
           <a
             className="btn btn-primary"
-            href={MEMBERSHIP_FORM_URL}
+            href="https://docs.google.com/forms/d/e/1FAIpQLScOTrRwjyibTXeyARh09pIGIhvpeOx1ly8fGXQ6feubCfRUOQ/viewform?usp=publish-editor"
             target="_blank"
             rel="noreferrer"
           >
-            Join GEARS
-          </a>
-          <a
-            className="btn btn-outline"
-            href={EVENT_INTEREST_FORM_URL}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Stay updated on events
+            JOIN GEARS
           </a>
         </div>
       </div>

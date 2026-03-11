@@ -14,10 +14,11 @@ function App() {
       <SiteHeader />
       <main>
         <Hero />
-        <SectionAbout />
-        <SectionActivities />
-        <SectionEvents />
-        <SectionMembership />
+        {// <SectionAbout />
+        //<SectionActivities />
+        //<SectionEvents /> 
+        // <SectionMembership />
+        }
         <SectionContact />
       </main>
       <SiteFooter />

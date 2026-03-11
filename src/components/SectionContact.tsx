@@ -14,25 +14,25 @@ export function SectionContact() {
           <h3>Contact</h3>
           <p>
             Email:{' '}
-            <a href="mailto:board@gears-association.example">
-              board@gears-association.example
+            <a href="mailto:board@gearsnl.org">
+              board@gearsnl.org
             </a>
-            <br />
-            Campus lab room · open most weekdays.
           </p>
         </div>
-        <div>
+        {
+        /*<div>
           <h3>Partners</h3>
           <p>
             We work with companies and research groups in robotics and engineering
             to organise talks, visits and projects.
           </p>
-          <div className="partner-row">
+         <div className="partner-row">
             <span className="partner-chip">Robotics Lab</span>
             <span className="partner-chip">Automation Group</span>
             <span className="partner-chip">Tech Company</span>
           </div>
-        </div>
+        </div> */
+}
       </div>
     </section>
   )
