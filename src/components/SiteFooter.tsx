@@ -7,6 +7,7 @@ export function SiteFooter() {
         <a href="#events">Events</a> */}
         <br/>
         <a href="/privacy.html">Privacy policy</a>
+        <a href="/termsandconditions.html">Terms and Conditions for Membership</a>
       </span>
     </footer>
   )
