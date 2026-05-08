@@ -1,5 +1,5 @@
 import logoSmall from '../assets/gears_branding/gears_logo_small.jpeg'
-// import { MEMBERSHIP_FORM_URL } from '../config'
+import { NavLink } from 'react-router-dom'
 
 export function SiteHeader() {
   return (
@@ -22,7 +22,12 @@ export function SiteHeader() {
         </div>
 
         <nav className="nav">
-          <a href="#contact">Contact</a>
+          <NavLink to="/" end>
+            Home
+          </NavLink>
+          <NavLink to="/activities">Activities</NavLink>
+          <NavLink to="/membership">Membership</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScOTrRwjyibTXeyARh09pIGIhvpeOx1ly8fGXQ6feubCfRUOQ/viewform?usp=publish-editor"
             target="_blank"

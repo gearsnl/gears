@@ -11,42 +11,43 @@ export function SectionActivities() {
 
       <div className="grid grid-3">
         <article className="card">
-          <h3>Autonomous Rover Team</h3>
+          <h3>Makercie Rover Team</h3>
           <p>
-            Design and build a ground robot that can navigate autonomously using
-            sensors, mapping and control algorithms.
+            Makercie is a student rover team focused on space exploration and
+            challenge-based engineering. Founded in 2023, the team has grown
+            into an interdisciplinary group from the University of Groningen and
+            Hanze, and won the Remote Formula of the European Rover Challenge.
           </p>
           <ul className="card-list">
-            <li>Embedded systems &amp; low-level control</li>
-            <li>Perception and path planning</li>
-            <li>Outdoor testing and competitions</li>
+            <li>
+              Learn more at{' '}
+              <a href="https://makercie.nl/" target="_blank" rel="noreferrer">
+                makercie.nl
+              </a>
+            </li>
+            <li>On-site and remote rover challenge experience</li>
+            <li>Interdisciplinary engineering team structure</li>
           </ul>
         </article>
 
         <article className="card">
-          <h3>Robotics Projects Team</h3>
+          <h3>Kiwi Aerospace CanSat Team</h3>
           <p>
-            Work on smaller semester-based robotics projects in mixed-experience
-            teams, from line followers to robotic arms.
+            Kiwi Aerospace is a six-member engineering student team competing in
+            the World CanSat Challenge 2026 in Mexico City, hosted by UNAM and
+            PEU. The team designs, builds, and launches a 2U model satellite
+            with full end-to-end ownership across the mission lifecycle.
           </p>
           <ul className="card-list">
-            <li>Weekly build evenings</li>
-            <li>Guidance from experienced members</li>
-            <li>Beginner-friendly introduction to robotics</li>
+            <li>Real-time telemetry and environmental sensing payload</li>
+            <li>Custom autogyro controlled descent and safe egg recovery</li>
+            <li>From design reviews to flight operations and analysis</li>
           </ul>
         </article>
 
         <article className="card">
-          <h3>Software &amp; Simulation Team</h3>
-          <p>
-            Focus on robot software, simulation and tooling to support the
-            hardware teams and experiment with new ideas.
-          </p>
-          <ul className="card-list">
-            <li>ROS, control and planning</li>
-            <li>Simulated robots and scenarios</li>
-            <li>Tooling, dashboards and CI</li>
-          </ul>
+          <h3>Coming Soon</h3>
+          <p>New activity updates will be announced here soon.</p>
         </article>
       </div>
     </section>

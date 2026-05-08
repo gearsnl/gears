@@ -13,9 +13,43 @@ export function SectionContact() {
         <div>
           <h3>Contact</h3>
           <p>
-            Email:{' '}
+            Board:{' '}
             <a href="mailto:board@gearsnl.org">
               board@gearsnl.org
+            </a>
+          </p>
+            <p>
+            Chair:{' '}
+            <a href="mailto:chair@gearsnl.org">
+              chair@gearsnl.org
+            </a>
+          </p>
+          <p>
+            Secretary:{' '}
+            <a href="mailto:secretary@gearsnl.org">
+              secretary@gearsnl.org
+            </a>
+          </p>
+          <p>
+            Treasurer:{' '}
+            <a href="mailto:treasurer@gearsnl.org">
+              treasurer@gearsnl.org
+            </a>
+          </p>
+          <p>
+            External Affairs:{' '}
+            <a href="mailto:extern@gearsnl.org">
+              extern@gearsnl.org
+            </a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/company/gearsnl/">
+              Linkedin
+            </a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/gearsnl?igsh=dTI2czI4d3M2ZmRl&utm_source=qr">
+              Instagram
             </a>
           </p>
         </div>

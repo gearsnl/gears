@@ -1,10 +1,9 @@
 import './App.css'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { SiteHeader } from './components/SiteHeader'
 import { Hero } from './components/Hero'
-// import { SectionAbout } from './components/SectionAbout'
-//import { SectionActivities } from './components/SectionActivities'
-// import { SectionEvents } from './components/SectionEvents'
-//import { SectionMembership } from './components/SectionMembership'
+import { SectionActivities } from './components/SectionActivities'
+import { SectionMembership } from './components/SectionMembership'
 import { SectionContact } from './components/SectionContact'
 import { SiteFooter } from './components/SiteFooter'
 
@@ -13,13 +12,13 @@ function App() {
     <div className="site">
       <SiteHeader />
       <main>
-        <Hero />
-        {// <SectionAbout />
-        //<SectionActivities />
-        //<SectionEvents /> 
-        // <SectionMembership />
-        }
-        <SectionContact />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/activities" element={<SectionActivities />} />
+          <Route path="/membership" element={<SectionMembership />} />
+          <Route path="/contact" element={<SectionContact />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
       </main>
       <SiteFooter />
     </div>
