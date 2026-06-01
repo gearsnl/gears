@@ -6,6 +6,7 @@ import { SectionActivities } from './components/SectionActivities'
 import { SectionMembership } from './components/SectionMembership'
 import { SectionContact } from './components/SectionContact'
 import { SiteFooter } from './components/SiteFooter'
+import { SectionAbout } from './components/SectionAbout'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/activities" element={<SectionActivities />} />
           <Route path="/membership" element={<SectionMembership />} />
           <Route path="/contact" element={<SectionContact />} />
+          <Route path="/about" element={<SectionAbout />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

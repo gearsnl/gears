@@ -4,13 +4,24 @@ export function SectionAbout() {
       <div className="section-header">
         <h2>About GEARS</h2>
         <p>
-          GEARS is the study association for students interested in robotics,
-          mechatronics and engineering. We connect students, researchers and
-          companies through social, study and career-focused activities.
+          GEARS is the Groningen non-profit study association built for facilitating teams
+          competing in student challenges. Built by students, for students.
+        </p>
+        <br/>
+        <p>
+          Bureaucracy is the most time-consuming part of starting a new team. Our mission
+           is to facilitate the formation and growth of teams competing
+          in student challenges by allowing teams to focus on the quality of the R&D. 
         </p>
       </div>
 
       <div className="grid grid-3">
+        <article className="card">
+          <h3>Team Perks</h3>
+          <p>
+            Facilitated bureaucracy process for new and established teams. 
+          </p>
+        </article>
         <article className="card">
           <h3>Social</h3>
           <p>

@@ -27,6 +27,7 @@ export function SiteHeader() {
           </NavLink>
           <NavLink to="/activities">Activities</NavLink>
           <NavLink to="/membership">Membership</NavLink>
+          <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScOTrRwjyibTXeyARh09pIGIhvpeOx1ly8fGXQ6feubCfRUOQ/viewform?usp=publish-editor"

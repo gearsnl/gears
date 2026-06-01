@@ -5,7 +5,7 @@ export function SiteFooter() {
         <strong>GEARS</strong>
         <span>KVK: 42017832</span>
         <span>Nijenborgh 4, 9747 AG, Groningen</span>
-        <span>Platform for STEM student challenges.</span>
+        <span>Platform for facilitating student teams.</span>
       </div>
 
       <div className="footer-meta">

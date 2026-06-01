@@ -17,8 +17,8 @@ export function Hero() {
           Platform for STEM student challenges.
         </h1>
         <p className="hero-lead">
-          GEARS is the association built to provide a platform for STEM students of the University of Groningen and Hanze University of Applied Sciences
-          to compete in student challenges.
+          GEARS is the association built to provide a platform for students of the University of Groningen and Hanze University of Applied Sciences
+          to compete in student challenges in STEM fields (Science, Technology, Engineering, Math).
         </p>
 
         <div className="hero-actions">
