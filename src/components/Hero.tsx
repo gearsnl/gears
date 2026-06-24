@@ -1,4 +1,4 @@
-// import { EVENT_INTEREST_FORM_URL, MEMBERSHIP_FORM_URL } from '../config'
+import {MEMBERSHIP_FORM_URL } from '../config'
 import logoFull from '../assets/gears_branding/gears_logo.png'
 
 export function Hero() {
@@ -24,7 +24,7 @@ export function Hero() {
         <div className="hero-actions">
           <a
             className="btn btn-primary"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScOTrRwjyibTXeyARh09pIGIhvpeOx1ly8fGXQ6feubCfRUOQ/viewform?usp=publish-editor"
+            href={MEMBERSHIP_FORM_URL}
             target="_blank"
             rel="noreferrer"
           >
