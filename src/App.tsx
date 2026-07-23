@@ -7,6 +7,7 @@ import { SectionMembership } from './components/SectionMembership'
 import { SectionContact } from './components/SectionContact'
 import { SiteFooter } from './components/SiteFooter'
 import { SectionAbout } from './components/SectionAbout'
+import { login } from './components/SectionLogin'
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/activities" element={<SectionActivities />} />
+          <Route path="/login" element={<SectionLogin />} />
           <Route path="/membership" element={<SectionMembership />} />
           <Route path="/contact" element={<SectionContact />} />
           <Route path="/about" element={<SectionAbout />} />
           <Route path="*" element={<Navigate to="/" replace />} />
+          
         </Routes>
       </main>
       <SiteFooter />
