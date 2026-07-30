@@ -8,7 +8,7 @@ export function SectionLogin() {
           demo? Reach out to the GEARS board.
         </p>
       </div>
-a
+
       <div className="contact-grid">
         <div>
           <h3>Contact</h3>
