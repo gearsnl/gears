@@ -5,7 +5,7 @@ export function SectionLogin() {
         <h2>Contact &amp; partners</h2>
         <p>
           Interested in collaborating, sponsoring hardware or inviting us for a
-          demo? Reach out to the GEARS boardd.
+          demo? Reach out to the GEARS board.
         </p>
       </div>
 
