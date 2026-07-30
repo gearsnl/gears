@@ -5,7 +5,7 @@ export function SectionContact() {
         <h2>Contact &amp; partners</h2>
         <p>
           Interested in collaborating, sponsoring hardware or inviting us for a
-          demo? Reach out to the GEARS board.
+          demo? Reach out to the GEARS boaard.
         </p>
       </div>
 
