@@ -1,6 +1,6 @@
 export function SectionLogin() {
   return (
-    <section id="contact" className="login login-alt">
+    <section id="login" className="login login-alt">
       <div className="login-header">
         <h2>Contact &amp; partners</h2>
         <p>

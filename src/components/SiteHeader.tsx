@@ -30,6 +30,7 @@ export function SiteHeader() {
           <NavLink to="/membership">Membership</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/login">Login</NavLink>
           <a
             href={MEMBERSHIP_FORM_URL}
             target="_blank"

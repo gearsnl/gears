@@ -7,7 +7,7 @@ import { SectionMembership } from './components/SectionMembership'
 import { SectionContact } from './components/SectionContact'
 import { SiteFooter } from './components/SiteFooter'
 import { SectionAbout } from './components/SectionAbout'
-import { login } from './components/SectionLogin'
+import { SectionLogin } from './components/SectionLogin'
 
 function App() {
   return (
