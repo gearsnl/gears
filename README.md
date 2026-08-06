@@ -71,3 +71,14 @@ export default defineConfig([
   },
 ])
 ```
+
+## Authentication (Better Auth)
+
+If you want to enable Sign in with Vercel using Better Auth, add a provider config at `src/auth.ts` and provide the following environment variables for development (copy `.env.example` to `.env` and fill values):
+
+- `VERCEL_CLIENT_ID`
+- `VERCEL_CLIENT_SECRET` (secret - do not commit)
+- `VERCEL_REDIRECT_URI` (e.g. `http://localhost:3000/api/auth/callback/vercel`)
+
+For production on Vercel, set the same variables in the Vercel Project → Settings → Environment Variables.
+
