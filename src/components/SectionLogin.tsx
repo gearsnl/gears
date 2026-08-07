@@ -51,7 +51,7 @@ export function SectionLogin() {
           </p>
           <p>
             <a href="https://www.instagram.com/gearsnl?igsh=dTI2czI4d3M2ZmRl&utm_source=qr">
-              Instagram
+              Instagramm
             </a>
           </p>
         </div>
