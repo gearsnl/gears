@@ -46,7 +46,7 @@ export function SectionActivities() {
         </article>
 
         <article className="card">
-          <h3>Coming Soon!</h3>
+          <h3>Coming Soon</h3>
           <p>New activity updates will be announced here soon.</p>
         </article>
       </div>
