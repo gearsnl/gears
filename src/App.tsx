@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/activities" element={<SectionActivities />} />
-          <Route path="/loginn" element={<SectionLogin />} />
+          <Route path="/login" element={<SectionLogin />} />
           <Route path="/membership" element={<SectionMembership />} />
           <Route path="/contact" element={<SectionContact />} />
           <Route path="/about" element={<SectionAbout />} />
